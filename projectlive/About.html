@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Natural Jaggery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="navbar.html">
+            <img src="assets/images/i5.png" alt="Jaggery Logo" height="50" width="50" class="d-inline-block align-text-top">
+        </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="navbar.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- Sign Up / Log In Button -->
+                <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    Sign Up / Log In
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sign Up / Log In Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Sign Up / Log In</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100">Log In</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <p>Don't have an account? <a href="#">Sign Up</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            background-color: #f8f5f0;
+            font-family: Arial, sans-serif;
+        }
+        .container h1, h2 {
+            color: #8B4513;
+            font-weight: bold;
+        }
+        /* Card Styling */
+        .card {
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        /* Image Styling */
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px; /* Added space between images */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">About Natural Jaggery</h1>
+        <p class="text-center lead">Jaggery is an unrefined traditional sweetener, rich in essential nutrients and used in Indian households for centuries. It is healthier than sugar, providing natural minerals and energy.</p>
+        
+        <!-- Jaggery Benefits -->
+        <h2 class="text-center my-5">Why Choose Natural Jaggery?</h2>
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card p-3">
+                    <img src="assets/images/58.jfif" class="rounded-circle mx-auto d-block" width="120" height="120" alt="Immunity Booster">
+                    <h5 class="mt-3">Boosts Immunity</h5>
+                    <p>Rich in antioxidants, jaggery strengthens your immune system and detoxifies the body.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card p-3">
+                    <img src="assets/images/s2.jfif" class="rounded-circle mx-auto d-block" width="120" height="120" alt="Good Digestion">
+                    <h5 class="mt-3">Aids Digestion</h5>
+                    <p>Jaggery activates digestive enzymes and prevents constipation.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card p-3">
+                    <img src="assets/images/s3.jfif" class="rounded-circle mx-auto d-block" width="120" height="120" alt="Energy Booster">
+                    <h5 class="mt-3">Provides Energy</h5>
+                    <p>Unlike sugar, jaggery releases energy slowly, preventing sugar crashes.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Jaggery Production Steps -->
+        <h2 class="text-center my-5">How Jaggery is Made?</h2>
+
+        <!-- First Row: Step 1, Step 2, Step 3 -->
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="card p-3 text-center">
+                    <h5>Step 1: Sugarcane Harvesting</h5>
+                    <div class="image-container">
+                        <img src="assets/images/58.jfif" alt="Harvesting 1">
+                        <img src="assets/images/64.jfif" alt="Harvesting 2">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card p-3 text-center">
+                    <h5>Step 2: Extracting Juice</h5>
+                    <div class="image-container">
+                        <img src="assets/images/s2.jfif" alt="Juice Extraction 1">
+                        <img src="assets/images/ss7.jfif" alt="Juice Extraction 2">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card p-3 text-center">
+                    <h5>Step 3: Boiling & Thickening</h5>
+                    <div class="image-container">
+                        <img src="assets/images/s3.jfif" alt="Boiling 1">
+                        <img src="assets/images/s4.jfif" alt="Boiling 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Row: Step 4, Step 5 -->
+        <div class="row justify-content-center">
+            <div class="col-md-5 mb-4">
+                <div class="card p-3 text-center">
+                    <h5>Step 4: Cooling & Molding</h5>
+                    <div class="image-container">
+                        <img src="assets/images/s8.jfif" alt="Molding 1">
+                        <img src="assets/images/s9.jfif" alt="Molding 2">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 mb-4">
+                <div class="card p-3 text-center">
+                    <h5>Step 5: Cutting into Blocks</h5>
+                    <div class="image-container">
+                        <img src="assets/images/jj1.jfif" alt="Cutting 1">
+                        <img src="assets/images/jj2.avif" alt="Cutting 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <!--footer-->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3"></i>Company name
+                    </h6>
+                    <p>
+                        Mahalaxmi Jaggery Products
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Products
+                    </h6>
+                    <p>
+                        <a href="navbar.html" class="text-reset">Jaggery cubes</a>
+                    </p>
+                    <p>
+                        <a href="navbar.html" class="text-reset">Jaggery Powder</a>
+                    </p>
+                    <p>
+                        <a href="navbar.html" class="text-reset">Organic Jaggery</a>
+                    </p>
+                    <p>
+                        <a href="navbar.html" class="text-reset">Jaggery Granules</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Useful links
+                    </h6>
+                    <p>
+                        <a href="https://www.instagram.com/mahalaxmi_jaggery1588?igsh=MXZ2eGxtMWo3ZThuNw==" class="text-reset">Instagram</a>
+                    </p>
+                    <p>
+                        <a href="https://www.youtube.com/@MAHALAXMI-1588" class="text-reset">Youtube</a>
+                    </p>
+                    <p>
+                        <a href="https://wa.me/919403232616" class="text-reset">Whatsapp</a>
+                    </p>
+                    <!--<p>
+                        <a href="#!" class="text-reset">Help</a>
+                    </p>-->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p><i class="fas fa-home me-3"></i> KARAD, 415124, MAHARASHTRA</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        mahalaxmijaggery2000@gmail.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> + 91 9403232616</p>
+                
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2025 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<!-- Footer -->
+
+<br><br><br><br>
+</body>
+</html>
